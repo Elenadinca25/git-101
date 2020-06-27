@@ -2,11 +2,13 @@
 body {
 	margin: 0;
 	font-family: Helvetica;
+	background-color: red;
 }
 
 #logo {
 	height: 80px;
 	width:  80px;
+	color: white;
 }
 
 #container {
@@ -15,4 +17,9 @@ body {
 	justify-content: center;
 	height: 100vh;
 	flex-direction: column;
+}
+
+h1 {
+	color: white;
+	font-weight: 100;
 }
